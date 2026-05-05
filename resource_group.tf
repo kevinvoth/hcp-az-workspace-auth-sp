@@ -5,6 +5,6 @@ resource "azurerm_resource_group" "cacthis" {
 }
 
 resource "azurerm_resource_group" "caethis" {
-  name     = "az-oidc-cae-workspace-sp"
+  name     = "hcp-az-cae-workspace-auth-sp"
   location = "canadaeast"
 }
