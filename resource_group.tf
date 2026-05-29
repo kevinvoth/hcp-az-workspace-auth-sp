@@ -1,5 +1,5 @@
 
-resource "azurerm_resource_group" "cacthis" {
+resource "azurerm_resource_group" "cac" {
   name     = "hcp-az-cac-workspace-auth-sp"
   location = "canadacentral"
 
@@ -8,7 +8,7 @@ resource "azurerm_resource_group" "cacthis" {
   }
 }
 
-resource "azurerm_resource_group" "caethis" {
+resource "azurerm_resource_group" "cae" {
   name     = "hcp-az-cae-workspace-auth-sp"
   location = "canadaeast"
 
